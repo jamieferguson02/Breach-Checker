@@ -1,0 +1,13 @@
+# Keep secrets, local environments and repo metadata out of the build context
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.git/
+.github/
+.vscode/
+.idea/
+tests/

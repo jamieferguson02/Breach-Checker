@@ -1,0 +1,11 @@
+# Configuration file for the breach-checker application
+
+# endpoint for Intelligence X free tier
+api_endpoint: "https://free.intelx.io/"
+#api_endpoint: "https://2.intelx.io"
+
+# maximum lookups allowed per minute
+rate_limit_per_minute: 50
+
+# request timeout in seconds
+timeout_seconds: 60
